@@ -124,3 +124,44 @@ button{
 }
 
 /*sign up part*/
+.call{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 160px;
+    width: 70vw;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+.titlebox{
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+}
+.textbox{
+    font-size: 20px;
+    color: #E5E7EB;
+}
+.box button{
+    border: 3px solid white;
+    height: 40px;
+}
+
+/*footer part*/
+.footer{
+    background-color: #1f2937;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    font-size: 18px;
+}
